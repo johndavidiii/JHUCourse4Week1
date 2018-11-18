@@ -1,0 +1,18 @@
+---
+title: "JHU Data Science Course 4 Week 1 Peer Reviewed Project"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+This is the first peer assignment of the fourth course in the JHU Data Science series.  You will have to modify the path to the directory on your computer for the convertData.R, plot1.R, plot2.R, plot3.R, plot4.R to read the data and write the png files. Other than that the programs work and produce the required output.
+
+The program convertData.R, cleans and tidys the data.
+
+
+
+
+

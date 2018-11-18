@@ -1,0 +1,19 @@
+---
+title: "Codebook"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Codebook for JHU Coursera Course 4 Week 1 Peer Review Assignment
+
+
+```{r ExData_Plotting1}
+thpcDF <- read.csv("tidy_household_power_consumption.csv",stringsAsFactors = FALSE)
+print(str(thpcDF))
+summary(thpcDF)
+print(head(thpcDF,15))
+```
+
